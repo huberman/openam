@@ -8,7 +8,7 @@ ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
 WORKDIR $CATALINA_HOME
 
-EXPOSE 8080 4444 50389
+EXPOSE 8081 4444 50389
 
 ADD openam.war  /usr/local/tomcat/webapps/openam.war
 

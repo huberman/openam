@@ -1,0 +1,8 @@
+openam:
+    image: openam
+    ports:
+        - "50389:50389"
+        - "4444:4444"
+        - "8081:8081"
+    volumes:
+        - openam:/root/openam
